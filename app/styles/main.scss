@@ -1,0 +1,25 @@
+@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
+
+.grofarms-nav > li {
+  padding: 10px
+}
+.jumbotron h1 {
+	font-size: 60px;
+	font-weight: bold;
+  margin-top: 25px;
+}
+.faq-area {
+	padding: 10px;
+}
+.faq-area > button{
+	width: 100%;
+	text-align: left;
+	padding: 5px;
+}
+.faq-area > .collapse {
+  padding: 5px;
+}
+.navbar-inner {
+  height: 60px;
+}
