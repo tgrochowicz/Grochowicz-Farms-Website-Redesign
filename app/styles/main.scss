@@ -28,3 +28,11 @@
   margin-left: auto;
   display: block;
 }
+.brand > img {
+  max-height: 40px;
+}
+.carousel .item > img {
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
