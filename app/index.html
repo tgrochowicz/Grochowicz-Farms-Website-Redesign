@@ -14,6 +14,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+
         <!-- build:css styles/site.css -->
         <link rel="stylesheet" href="styles/bootstrap.css" type="text/css">
     <style type="text/css">
@@ -39,7 +41,9 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="brand" href="#">Hello</a>
+                    <a class="brand" href="#">
+                        <img src="images/logo.png" />
+                    </a>
 
                     <div class="nav-collapse collapse">
                         <ul class="nav">
@@ -263,52 +267,86 @@
                         <h2>
                             Frequently Asked Questions
                         </h2>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq1">Are you wheelchair accessible?</button>
-                            <div id="faq1" class="collapse">
-                                We strive to make as many areas as possible wheelchair accessible including our daytime entertaining hayride.. However, we are a working farm so some areas are not.
+                        <div class="accordion" id="faq-acc">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Are you wheelchair accessible?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        We strive to make as many areas as possible wheelchair accessible including our daytime entertaining hayride.. However, we are a working farm so some areas are not.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq2">Can I bring my own food to the farm?</button>
-                            <div id="faq2" class="collapse">
-                                Sorry, but we don't allow outside food or drinks past the entrance.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Can I bring my own food to the farm?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        Sorry, but we don't allow outside food or drinks past the entrance.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq3">Can I have a birthday party at Grochowicz Farms?</button>
-                            <div id="faq3" class="collapse">
-                                Yes, birthday parties can take place during general admission on Saturdays and Sundays. We do not provide special accommodations for your party. You need to make prior arrangements with us so we know when you plan on coming. General admission is required of ALL who attend. Please keep in mind that we are only open weather permitting so you need alternative plans in case we close due to bad weather.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Can I have a birthday party at Grochowicz Farms?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        Yes, birthday parties can take place during general admission on Saturdays and Sundays. We do not provide special accommodations for your party. You need to make prior arrangements with us so we know when you plan on coming. General admission is required of ALL who attend. Please keep in mind that we are only open weather permitting so you need alternative plans in case we close due to bad weather.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq4">Can I bring my dog with us to the farm?</button>
-                            <div id="faq4" class="collapse">
-                                We ask that you leave your pets at home for the safety of our customers and farm animals; however we do allow service animals needed for special assistance.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Can I bring my dog with us to the farm?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        We ask that you leave your pets at home for the safety of our customers and farm animals; however we do allow service animals needed for special assistance.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq5">Are you open during the week for Fall Family Fun Activities?</button>
-                            <div id="faq5" class="collapse">
-                                Although the store is open during the week, the activity area is only open to the general public on the weekends. Groups of 25 or more are accommodated by reservation only during the weekday hours.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Are you open during the week for Fall Family Fun Activities?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        Although the store is open during the week, the activity area is only open to the general public on the weekends. Groups of 25 or more are accommodated by reservation only during the weekday hours.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq6">When is a less busy time to come?</button>
-                            <div id="faq6" class="collapse">
-                                Though we can make no guarantees, the first couple weekends are typically much slower than the later weekends in October.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">When is a less busy time to come?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        Though we can make no guarantees, the first couple weekends are typically much slower than the later weekends in October.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq7">Do you have restroom facilities?</button>
-                            <div id="faq7" class="collapse">
-                                Yes, we have portable restrooms available for use.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">Do you have restroom facilities?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        Yes, we have portable restrooms available for use.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="faq-area">
-                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#faq8">How can I get a question answered that wasn't answered here?</button>
-                            <div id="faq8" class="collapse">
-                                If you have a question that still isn't answered you can contact us <a href="#contact">here</a>.
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle faq-header">How can I get a question answered that wasn't answered here?</a>
+                                </div>
+                                <div class="accordion-body collapse in faq-answer">
+                                    <div class="accordion-inner">
+                                        If you have a question that still isn't answered you can contact us <a href="#contact">here</a>.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
