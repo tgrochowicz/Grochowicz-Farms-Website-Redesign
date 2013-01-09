@@ -180,10 +180,24 @@ module.exports = function( grunt ) {
 
     min: {
       dist: ''
+    },
+
+    htmlcompressor: {
+      compile: {
+        files: {
+          "dist/index.html": "dist/index.html"
+        }, options: {
+          type: "html"
+        }
+      }
     }
   });
 
   // Alias the `test` task to run the `mocha` task instead
   grunt.registerTask('test', 'server:phantom mocha');
+  grunt.loadNpmTasks("grunt-htmlcompressor");
+
+  grunt.renameTask('build', 'original-build');
+  grunt.registerTask('build', 'original-build htmlcompressor');
 
 };
