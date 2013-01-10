@@ -28,9 +28,6 @@
   margin-right: auto;
 }
 
-iframe {
-  max-width: 400px;
-}
 section {
   padding-top: 45px;
 }
@@ -67,6 +64,12 @@ section {
     height: 350px;
     font-size: 1.4em;
   }
+  #container {
+    padding-top: 0px !important;
+  }
+  #header {
+    padding: 10px;
+  }
 }
 @media (max-width: 480px) {
   .masthead h1 {
@@ -77,4 +80,31 @@ section {
     height: 250px;
     font-size: 1.2em;
   }
+  #container {
+    padding-top: 0px !important;
+  }
+
+  #header {
+    padding: 5px;
+  }
+}
+@media (max-width: 979px) {
+  #container {
+    padding-top: 0px !important;
+  }
+}
+.section-header {
+  color: rgb(23, 100, 57);
+}
+.nav li {
+  font-weight: bold;
+}
+.masthead {
+  color: #147071;
+}
+#container {
+  padding-top: 60px;
+}
+.hero-unit {
+  padding: 30px;
 }
