@@ -2,4 +2,5 @@ temp
 dist
 node_modules
 .sass-cache
-*/Thumbs.db
+Thumbs.db
+.DS_Store
