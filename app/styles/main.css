@@ -4820,7 +4820,7 @@ header {
 }
 
 .icon-fb a {
-  background: url(images/icon-fb.png) 0 0 no-repeat;
+  background: url(/images/icon-fb.png) 0 0 no-repeat;
 }
 
 .icon-div {
@@ -4929,4 +4929,16 @@ footer .navbar-nav > li > a:focus {
 
 footer address {
   margin-top: 3px;
+}
+
+.top-img1 {
+  background-image: url(/images/top/first.jpg);
+}
+
+.top-img2 {
+  background-image: url(/images/top/second.jpg);
+}
+
+.top-img3 {
+  background-image: url(/images/top/third.jpg);
 }
