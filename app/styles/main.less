@@ -1,0 +1,177 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@iconSpritePath: "../images/glyphicons-halflings.png";
+@iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+.box-shadow (@x: 0; @y: 0; @blur: 1px; @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.hero-unit {
+  margin: 50px auto 0 15px;
+}
+header {
+  text-align: left;
+  background: #262626;
+  padding: 29px 0 31px 0;
+}
+.navbar {
+  background-color: #262626;
+}
+.top-nav > li {
+	&.active {
+		color: #fe8f01;
+		> a {
+			color: #fe8f01;
+			background-color: transparent;
+			&:hover {
+				color: #fe8f01;
+				background-color: transparent;
+				
+			}
+		}
+	}
+
+	> a {
+		display: inline-block;
+		position: relative;
+		font-family: 'Open Sans',sans-serif;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+
+		&:hover {
+			color: #fe8f01;
+			transition: 0.3s;
+		}
+
+	}
+}
+.top-nav {
+	float: right;
+	margin: 11px 53px 0 0;
+}
+.top-navbar {
+	.box-shadow(0, 3px, 1px, #aaa);
+}
+.top-brand {
+	max-width: 250px;
+	color: #ccc;
+}
+.nav-icons {
+	display: inline-block;
+	margin: 3px 0 0 0;
+	border-left: #505050 1px solid;
+	padding: 10px 0 7px 23px;
+	float: right;
+	li a {
+		display: inline-block;
+		position: relative;
+		width: 18px;
+		height: 20px;
+
+		&:hover {
+			background-position: 0 bottom;
+		}
+	}
+}
+.row > div > h2 {
+	margin-top: 80px;
+}
+.icon-fb a {
+	background: url(/images/icon-fb.png) 0 0 no-repeat;
+}
+.icon-div {
+	padding: 15px 0;
+}
+#top-carousel {
+	height: 358px;
+	.item {
+		height: 358px;
+		overflow: hidden;
+		background-position-x: center;
+	}
+}
+h2 {
+	font-size: 42px;
+	color: #262626;
+	font-weight: 300;
+	line-height: 1em;
+}
+h4 {
+	color: #444444;
+	font-size: 24px;
+	line-height: 32px;
+}
+h5 {
+	font-size: 16px;
+	font-weight: 550;
+}
+p {
+	font-size: 16px;
+}
+.push-top {
+	margin-top: 20px;
+}
+.cal-highlight {
+  background-color: orange !important;
+}
+#calendar {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  font-size: 1.5em;
+}
+.cal-legend-color {
+  background-color: orange !important;
+}
+#photo-gallery {
+	.carousel-inner {
+		text-align: center;
+	}
+}
+.faq-header {
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: 400;
+	color: darken(#fe8f01,10%);
+}
+.faq-answer {
+	font-size: 18px;
+}
+footer {
+	margin-top: 25px;
+	background: #464646;
+	padding-bottom: 2px;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #c4c4c4;
+	.navbar {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.navbar-nav {
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		> li > a {
+			position: relative;
+			display: block;
+			padding: 10px 15px;
+		}
+		> li > a:hover,
+		> li > a:focus {
+			text-decoration: none;
+			background-color: #eeeeee;
+		}
+	}
+	address {
+		margin-top: 3px;
+	}
+}

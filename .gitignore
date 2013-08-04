@@ -1,7 +1,5 @@
-temp
-dist
 node_modules
+dist
+.tmp
+app/bower_components
 .sass-cache
-Thumbs.db
-.DS_Store
-*.sublime*
